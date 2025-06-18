@@ -1,0 +1,565 @@
+2025-06-16 17:26:37,356 - root - INFO - ¿ÚÕÖ¼ì²âÏµÍ³ºó¶Ë·þÎñÆô¶¯
+2025-06-16 17:26:37,356 - root - INFO - ÕýÔÚ¼ÓÔØÄ£ÐÍ: models/best.pt
+2025-06-16 17:26:37,848 - root - INFO - Ä£ÐÍ¼ÓÔØÍê³É£¬Éè±¸: cuda
+2025-06-16 17:26:37,848 - root - INFO - ·þÎñÆô¶¯ - Ä£Ê½: Éú²ú, µØÖ·: 0.0.0.0:5000
+2025-06-16 17:26:37,864 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.159.112.185:5000
+2025-06-16 17:26:37,864 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-16 17:26:43,059 - root - INFO - GET / - ×´Ì¬: 200 - ºÄÊ±: 35.43ms
+2025-06-16 17:26:43,066 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 17:26:43] "GET / HTTP/1.1" 200 -
+2025-06-16 17:26:43,091 - root - INFO - GET /css/style.css - ×´Ì¬: 404 - ºÄÊ±: 0.69ms
+2025-06-16 17:26:43,092 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 17:26:43] "[33mGET /css/style.css HTTP/1.1[0m" 404 -
+2025-06-16 17:26:43,092 - root - INFO - GET /js/script.js - ×´Ì¬: 404 - ºÄÊ±: 0.00ms
+2025-06-16 17:26:43,094 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 17:26:43] "[33mGET /js/script.js HTTP/1.1[0m" 404 -
+2025-06-16 17:26:59,511 - root - INFO - GET /css/style.css - ×´Ì¬: 404 - ºÄÊ±: 0.00ms
+2025-06-16 17:26:59,511 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 17:26:59] "[33mGET /css/style.css HTTP/1.1[0m" 404 -
+2025-06-16 17:26:59,541 - root - INFO - GET /.well-known/appspecific/com.chrome.devtools.json - ×´Ì¬: 404 - ºÄÊ±: 0.00ms
+2025-06-16 17:26:59,543 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 17:26:59] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-06-16 17:34:59,341 - root - INFO - GET / - ×´Ì¬: 200 - ºÄÊ±: 0.00ms
+2025-06-16 17:34:59,342 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 17:34:59] "GET / HTTP/1.1" 200 -
+2025-06-16 17:34:59,367 - root - INFO - GET /static/css/style.css - ×´Ì¬: 200 - ºÄÊ±: 0.00ms
+2025-06-16 17:34:59,370 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 17:34:59] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-16 17:34:59,370 - root - INFO - GET /static/js/script.js - ×´Ì¬: 200 - ºÄÊ±: 2.35ms
+2025-06-16 17:34:59,371 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 17:34:59] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-06-16 17:35:08,332 - root - INFO - POST /predict - ×´Ì¬: 200 - ºÄÊ±: 3389.27ms
+2025-06-16 17:35:08,332 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 17:35:08] "POST /predict HTTP/1.1" 200 -
+2025-06-16 17:35:15,431 - root - INFO - GET /static/css/style.css - ×´Ì¬: 304 - ºÄÊ±: 1.01ms
+2025-06-16 17:35:15,431 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 17:35:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-16 17:35:15,444 - root - INFO - GET /.well-known/appspecific/com.chrome.devtools.json - ×´Ì¬: 404 - ºÄÊ±: 0.00ms
+2025-06-16 17:35:15,445 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 17:35:15] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-06-16 17:35:42,936 - root - INFO - GET / - ×´Ì¬: 304 - ºÄÊ±: 0.00ms
+2025-06-16 17:35:42,941 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 17:35:42] "[36mGET / HTTP/1.1[0m" 304 -
+2025-06-16 17:35:42,968 - root - INFO - GET /static/css/style.css - ×´Ì¬: 304 - ºÄÊ±: 0.31ms
+2025-06-16 17:35:42,968 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 17:35:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-16 17:35:42,969 - root - INFO - GET /static/js/script.js - ×´Ì¬: 304 - ºÄÊ±: 0.00ms
+2025-06-16 17:35:42,971 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 17:35:42] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-06-16 17:35:50,667 - root - INFO - POST /predict - ×´Ì¬: 200 - ºÄÊ±: 3.47ms
+2025-06-16 17:35:50,667 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 17:35:50] "POST /predict HTTP/1.1" 200 -
+2025-06-16 17:37:55,698 - root - INFO - ¿ÚÕÖ¼ì²âÏµÍ³ºó¶Ë·þÎñÆô¶¯
+2025-06-16 17:37:55,698 - root - INFO - ÕýÔÚ¼ÓÔØÄ£ÐÍ: models/best.pt
+2025-06-16 17:37:56,137 - root - INFO - Ä£ÐÍ¼ÓÔØÍê³É£¬Éè±¸: cuda
+2025-06-16 17:37:56,139 - root - INFO - ·þÎñÆô¶¯ - Ä£Ê½: Éú²ú, µØÖ·: 0.0.0.0:5000
+2025-06-16 17:37:56,155 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.159.112.185:5000
+2025-06-16 17:37:56,155 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-16 17:37:58,318 - root - INFO - GET / - ×´Ì¬: 304 - ºÄÊ±: 33.16ms
+2025-06-16 17:37:58,318 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 17:37:58] "[36mGET / HTTP/1.1[0m" 304 -
+2025-06-16 17:37:58,355 - root - INFO - GET /static/css/style.css - ×´Ì¬: 304 - ºÄÊ±: 0.88ms
+2025-06-16 17:37:58,355 - root - INFO - GET /static/js/script.js - ×´Ì¬: 304 - ºÄÊ±: 0.88ms
+2025-06-16 17:37:58,355 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 17:37:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-16 17:37:58,356 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 17:37:58] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-06-16 17:38:06,568 - root - INFO - POST /predict - ×´Ì¬: 200 - ºÄÊ±: 3110.52ms
+2025-06-16 17:38:06,568 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 17:38:06] "POST /predict HTTP/1.1" 200 -
+2025-06-16 17:38:22,502 - root - INFO - POST /predict - ×´Ì¬: 200 - ºÄÊ±: 115.39ms
+2025-06-16 17:38:22,502 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 17:38:22] "POST /predict HTTP/1.1" 200 -
+2025-06-16 17:38:36,491 - root - INFO - POST /predict - ×´Ì¬: 200 - ºÄÊ±: 116.60ms
+2025-06-16 17:38:36,498 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 17:38:36] "POST /predict HTTP/1.1" 200 -
+2025-06-16 17:39:04,233 - root - INFO - POST /predict - ×´Ì¬: 200 - ºÄÊ±: 110.48ms
+2025-06-16 17:39:04,240 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 17:39:04] "POST /predict HTTP/1.1" 200 -
+2025-06-16 17:39:21,608 - root - INFO - POST /predict - ×´Ì¬: 200 - ºÄÊ±: 132.06ms
+2025-06-16 17:39:21,608 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 17:39:21] "POST /predict HTTP/1.1" 200 -
+2025-06-17 13:19:48,560 - root - INFO - ¿ÚÕÖ¼ì²âÏµÍ³ºó¶Ë·þÎñÆô¶¯
+2025-06-17 13:19:48,562 - root - INFO - ÕýÔÚ¼ÓÔØÄ£ÐÍ: models/best.pt
+2025-06-17 13:19:49,121 - root - INFO - Ä£ÐÍ¼ÓÔØÍê³É£¬Éè±¸: cuda
+2025-06-17 13:19:49,124 - root - INFO - ·þÎñÆô¶¯ - Ä£Ê½: Éú²ú, µØÖ·: 0.0.0.0:5000
+2025-06-17 13:19:49,142 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.159.164.15:5000
+2025-06-17 13:19:49,142 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-17 13:20:10,336 - root - INFO - ¿ÚÕÖ¼ì²âÏµÍ³ºó¶Ë·þÎñÆô¶¯
+2025-06-17 13:20:10,337 - root - INFO - ÕýÔÚ¼ÓÔØÄ£ÐÍ: models/best.pt
+2025-06-17 13:20:10,792 - root - INFO - Ä£ÐÍ¼ÓÔØÍê³É£¬Éè±¸: cuda
+2025-06-17 13:20:10,795 - root - INFO - ·þÎñÆô¶¯ - Ä£Ê½: Éú²ú, µØÖ·: 0.0.0.0:5000
+2025-06-17 13:20:10,810 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.159.164.15:5000
+2025-06-17 13:20:10,810 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-17 13:20:15,253 - root - INFO - GET / - ×´Ì¬: 304 - ºÄÊ±: 66.00ms
+2025-06-17 13:20:15,253 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 13:20:15] "[36mGET / HTTP/1.1[0m" 304 -
+2025-06-17 13:20:15,282 - root - INFO - GET /static/css/style.css - ×´Ì¬: 200 - ºÄÊ±: 1.00ms
+2025-06-17 13:20:15,282 - root - INFO - GET /static/js/script.js - ×´Ì¬: 200 - ºÄÊ±: 0.00ms
+2025-06-17 13:20:15,283 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 13:20:15] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-17 13:20:15,283 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 13:20:15] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-06-17 13:24:03,894 - root - INFO - GET / - ×´Ì¬: 304 - ºÄÊ±: 0.00ms
+2025-06-17 13:24:03,895 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 13:24:03] "[36mGET / HTTP/1.1[0m" 304 -
+2025-06-17 13:24:03,929 - root - INFO - GET /static/js/script.js - ×´Ì¬: 304 - ºÄÊ±: 0.00ms
+2025-06-17 13:24:03,930 - root - INFO - GET /static/css/style.css - ×´Ì¬: 200 - ºÄÊ±: 1.00ms
+2025-06-17 13:24:03,930 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 13:24:03] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-06-17 13:24:03,930 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 13:24:03] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-17 13:24:23,367 - root - INFO - GET / - ×´Ì¬: 304 - ºÄÊ±: 1.06ms
+2025-06-17 13:24:23,367 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 13:24:23] "[36mGET / HTTP/1.1[0m" 304 -
+2025-06-17 13:24:23,390 - root - INFO - GET /static/js/script.js - ×´Ì¬: 304 - ºÄÊ±: 1.00ms
+2025-06-17 13:24:23,390 - root - INFO - GET /static/css/style.css - ×´Ì¬: 200 - ºÄÊ±: 1.00ms
+2025-06-17 13:24:23,390 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 13:24:23] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-06-17 13:24:23,391 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 13:24:23] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-17 13:24:41,737 - root - INFO - GET / - ×´Ì¬: 304 - ºÄÊ±: 15.69ms
+2025-06-17 13:24:41,737 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 13:24:41] "[36mGET / HTTP/1.1[0m" 304 -
+2025-06-17 13:24:41,764 - root - INFO - GET /static/js/script.js - ×´Ì¬: 304 - ºÄÊ±: 0.57ms
+2025-06-17 13:24:41,764 - root - INFO - GET /static/css/style.css - ×´Ì¬: 200 - ºÄÊ±: 1.26ms
+2025-06-17 13:24:41,765 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 13:24:41] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-06-17 13:24:41,765 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 13:24:41] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-17 13:25:08,718 - root - INFO - GET / - ×´Ì¬: 304 - ºÄÊ±: 0.00ms
+2025-06-17 13:25:08,719 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 13:25:08] "[36mGET / HTTP/1.1[0m" 304 -
+2025-06-17 13:25:08,740 - root - INFO - GET /static/css/style.css - ×´Ì¬: 200 - ºÄÊ±: 0.30ms
+2025-06-17 13:25:08,741 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 13:25:08] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-17 13:25:08,742 - root - INFO - GET /static/js/script.js - ×´Ì¬: 304 - ºÄÊ±: 0.00ms
+2025-06-17 13:25:08,742 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 13:25:08] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-06-17 13:25:15,129 - root - INFO - GET / - ×´Ì¬: 304 - ºÄÊ±: 1.13ms
+2025-06-17 13:25:15,130 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 13:25:15] "[36mGET / HTTP/1.1[0m" 304 -
+2025-06-17 13:25:15,151 - root - INFO - GET /static/css/style.css - ×´Ì¬: 304 - ºÄÊ±: 0.00ms
+2025-06-17 13:25:15,152 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 13:25:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-17 13:25:15,153 - root - INFO - GET /static/js/script.js - ×´Ì¬: 304 - ºÄÊ±: 0.00ms
+2025-06-17 13:25:15,154 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 13:25:15] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-06-17 13:25:37,767 - root - INFO - GET / - ×´Ì¬: 304 - ºÄÊ±: 0.36ms
+2025-06-17 13:25:37,767 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 13:25:37] "[36mGET / HTTP/1.1[0m" 304 -
+2025-06-17 13:25:37,787 - root - INFO - GET /static/css/style.css - ×´Ì¬: 200 - ºÄÊ±: 0.35ms
+2025-06-17 13:25:37,788 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 13:25:37] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-17 13:25:37,789 - root - INFO - GET /static/js/script.js - ×´Ì¬: 304 - ºÄÊ±: 0.35ms
+2025-06-17 13:25:37,790 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 13:25:37] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-06-17 13:25:55,676 - root - INFO - GET / - ×´Ì¬: 304 - ºÄÊ±: 0.00ms
+2025-06-17 13:25:55,676 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 13:25:55] "[36mGET / HTTP/1.1[0m" 304 -
+2025-06-17 13:25:55,704 - root - INFO - GET /static/css/style.css - ×´Ì¬: 200 - ºÄÊ±: 1.00ms
+2025-06-17 13:25:55,704 - root - INFO - GET /static/js/script.js - ×´Ì¬: 304 - ºÄÊ±: 1.00ms
+2025-06-17 13:25:55,704 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 13:25:55] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-17 13:25:55,705 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 13:25:55] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-06-17 13:28:15,130 - root - INFO - GET / - ×´Ì¬: 304 - ºÄÊ±: 0.00ms
+2025-06-17 13:28:15,130 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 13:28:15] "[36mGET / HTTP/1.1[0m" 304 -
+2025-06-17 13:28:15,156 - root - INFO - GET /static/css/style.css - ×´Ì¬: 200 - ºÄÊ±: 0.32ms
+2025-06-17 13:28:15,157 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 13:28:15] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-17 13:28:15,159 - root - INFO - GET /static/js/script.js - ×´Ì¬: 304 - ºÄÊ±: 0.80ms
+2025-06-17 13:28:15,159 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 13:28:15] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-06-17 13:28:24,676 - root - INFO - GET / - ×´Ì¬: 304 - ºÄÊ±: 5.08ms
+2025-06-17 13:28:24,676 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 13:28:24] "[36mGET / HTTP/1.1[0m" 304 -
+2025-06-17 13:28:24,699 - root - INFO - GET /static/js/script.js - ×´Ì¬: 304 - ºÄÊ±: 0.44ms
+2025-06-17 13:28:24,699 - root - INFO - GET /static/css/style.css - ×´Ì¬: 200 - ºÄÊ±: 1.36ms
+2025-06-17 13:28:24,700 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 13:28:24] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-06-17 13:28:24,700 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 13:28:24] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-17 13:29:58,187 - root - INFO - GET / - ×´Ì¬: 304 - ºÄÊ±: 0.00ms
+2025-06-17 13:29:58,187 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 13:29:58] "[36mGET / HTTP/1.1[0m" 304 -
+2025-06-17 13:29:58,216 - root - INFO - GET /static/css/style.css - ×´Ì¬: 200 - ºÄÊ±: 0.00ms
+2025-06-17 13:29:58,217 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 13:29:58] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-17 13:29:58,218 - root - INFO - GET /static/js/script.js - ×´Ì¬: 304 - ºÄÊ±: 0.00ms
+2025-06-17 13:29:58,219 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 13:29:58] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-06-17 13:30:58,626 - root - INFO - GET / - ×´Ì¬: 304 - ºÄÊ±: 1.71ms
+2025-06-17 13:30:58,626 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 13:30:58] "[36mGET / HTTP/1.1[0m" 304 -
+2025-06-17 13:30:58,651 - root - INFO - GET /static/css/style.css - ×´Ì¬: 200 - ºÄÊ±: 0.85ms
+2025-06-17 13:30:58,652 - root - INFO - GET /static/js/script.js - ×´Ì¬: 304 - ºÄÊ±: 0.42ms
+2025-06-17 13:30:58,652 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 13:30:58] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-17 13:30:58,653 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 13:30:58] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-06-17 13:31:14,240 - root - INFO - GET / - ×´Ì¬: 304 - ºÄÊ±: 0.00ms
+2025-06-17 13:31:14,240 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 13:31:14] "[36mGET / HTTP/1.1[0m" 304 -
+2025-06-17 13:31:14,270 - root - INFO - GET /static/css/style.css - ×´Ì¬: 200 - ºÄÊ±: 1.01ms
+2025-06-17 13:31:14,270 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 13:31:14] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-17 13:31:14,271 - root - INFO - GET /static/js/script.js - ×´Ì¬: 304 - ºÄÊ±: 0.00ms
+2025-06-17 13:31:14,272 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 13:31:14] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-06-17 13:31:30,268 - root - INFO - GET / - ×´Ì¬: 200 - ºÄÊ±: 0.00ms
+2025-06-17 13:31:30,268 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 13:31:30] "GET / HTTP/1.1" 200 -
+2025-06-17 13:31:30,294 - root - INFO - GET /static/css/style.css - ×´Ì¬: 304 - ºÄÊ±: 0.00ms
+2025-06-17 13:31:30,294 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 13:31:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-17 13:31:30,294 - root - INFO - GET /static/js/script.js - ×´Ì¬: 304 - ºÄÊ±: 0.00ms
+2025-06-17 13:31:30,294 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 13:31:30] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-06-17 13:32:06,588 - root - INFO - GET / - ×´Ì¬: 304 - ºÄÊ±: 0.00ms
+2025-06-17 13:32:06,590 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 13:32:06] "[36mGET / HTTP/1.1[0m" 304 -
+2025-06-17 13:32:06,611 - root - INFO - GET /static/css/style.css - ×´Ì¬: 200 - ºÄÊ±: 0.00ms
+2025-06-17 13:32:06,612 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 13:32:06] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-17 13:32:06,612 - root - INFO - GET /static/js/script.js - ×´Ì¬: 304 - ºÄÊ±: 0.83ms
+2025-06-17 13:32:06,613 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 13:32:06] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-06-17 13:32:23,808 - root - INFO - GET / - ×´Ì¬: 304 - ºÄÊ±: 1.05ms
+2025-06-17 13:32:23,809 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 13:32:23] "[36mGET / HTTP/1.1[0m" 304 -
+2025-06-17 13:32:23,835 - root - INFO - GET /static/css/style.css - ×´Ì¬: 200 - ºÄÊ±: 0.89ms
+2025-06-17 13:32:23,836 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 13:32:23] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-17 13:32:23,837 - root - INFO - GET /static/js/script.js - ×´Ì¬: 304 - ºÄÊ±: 0.46ms
+2025-06-17 13:32:23,838 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 13:32:23] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-06-17 13:35:32,934 - root - INFO - GET / - ×´Ì¬: 304 - ºÄÊ±: 0.00ms
+2025-06-17 13:35:32,936 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 13:35:32] "[36mGET / HTTP/1.1[0m" 304 -
+2025-06-17 13:35:32,958 - root - INFO - GET /static/css/style.css - ×´Ì¬: 200 - ºÄÊ±: 1.00ms
+2025-06-17 13:35:32,958 - root - INFO - GET /static/js/script.js - ×´Ì¬: 304 - ºÄÊ±: 1.00ms
+2025-06-17 13:35:32,959 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 13:35:32] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-17 13:35:32,959 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 13:35:32] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-06-17 13:35:34,328 - root - INFO - GET / - ×´Ì¬: 304 - ºÄÊ±: 0.00ms
+2025-06-17 13:35:34,328 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 13:35:34] "[36mGET / HTTP/1.1[0m" 304 -
+2025-06-17 13:35:34,357 - root - INFO - GET /static/css/style.css - ×´Ì¬: 304 - ºÄÊ±: 0.34ms
+2025-06-17 13:35:34,357 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 13:35:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-17 13:35:34,359 - root - INFO - GET /static/js/script.js - ×´Ì¬: 304 - ºÄÊ±: 0.69ms
+2025-06-17 13:35:34,359 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 13:35:34] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-06-17 13:35:38,265 - root - INFO - GET / - ×´Ì¬: 304 - ºÄÊ±: 0.00ms
+2025-06-17 13:35:38,266 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 13:35:38] "[36mGET / HTTP/1.1[0m" 304 -
+2025-06-17 13:35:38,287 - root - INFO - GET /static/css/style.css - ×´Ì¬: 304 - ºÄÊ±: 0.67ms
+2025-06-17 13:35:38,288 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 13:35:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-17 13:35:38,289 - root - INFO - GET /static/js/script.js - ×´Ì¬: 304 - ºÄÊ±: 0.54ms
+2025-06-17 13:35:38,290 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 13:35:38] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-06-17 13:35:52,372 - root - INFO - GET / - ×´Ì¬: 304 - ºÄÊ±: 0.00ms
+2025-06-17 13:35:52,382 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 13:35:52] "[36mGET / HTTP/1.1[0m" 304 -
+2025-06-17 13:35:52,404 - root - INFO - GET /static/css/style.css - ×´Ì¬: 304 - ºÄÊ±: 6.53ms
+2025-06-17 13:35:52,405 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 13:35:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-17 13:35:52,405 - root - INFO - GET /static/js/script.js - ×´Ì¬: 304 - ºÄÊ±: 1.24ms
+2025-06-17 13:35:52,407 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 13:35:52] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-06-17 13:36:00,093 - root - INFO - GET / - ×´Ì¬: 304 - ºÄÊ±: 1.00ms
+2025-06-17 13:36:00,095 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 13:36:00] "[36mGET / HTTP/1.1[0m" 304 -
+2025-06-17 13:36:00,128 - root - INFO - GET /static/css/style.css - ×´Ì¬: 304 - ºÄÊ±: 0.00ms
+2025-06-17 13:36:00,129 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 13:36:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-17 13:36:00,133 - root - INFO - GET /static/js/script.js - ×´Ì¬: 304 - ºÄÊ±: 2.19ms
+2025-06-17 13:36:00,134 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 13:36:00] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-06-17 13:36:25,194 - root - INFO - GET / - ×´Ì¬: 304 - ºÄÊ±: 0.00ms
+2025-06-17 13:36:25,194 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 13:36:25] "[36mGET / HTTP/1.1[0m" 304 -
+2025-06-17 13:36:25,222 - root - INFO - GET /static/css/style.css - ×´Ì¬: 304 - ºÄÊ±: 0.37ms
+2025-06-17 13:36:25,223 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 13:36:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-17 13:36:25,224 - root - INFO - GET /static/js/script.js - ×´Ì¬: 304 - ºÄÊ±: 0.67ms
+2025-06-17 13:36:25,225 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 13:36:25] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-06-17 13:36:26,283 - root - INFO - GET / - ×´Ì¬: 304 - ºÄÊ±: 0.00ms
+2025-06-17 13:36:26,284 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 13:36:26] "[36mGET / HTTP/1.1[0m" 304 -
+2025-06-17 13:36:26,305 - root - INFO - GET /static/css/style.css - ×´Ì¬: 304 - ºÄÊ±: 0.00ms
+2025-06-17 13:36:26,305 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 13:36:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-17 13:36:26,305 - root - INFO - GET /static/js/script.js - ×´Ì¬: 304 - ºÄÊ±: 0.00ms
+2025-06-17 13:36:26,305 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 13:36:26] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-06-17 13:36:35,896 - root - INFO - GET / - ×´Ì¬: 304 - ºÄÊ±: 0.00ms
+2025-06-17 13:36:35,896 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 13:36:35] "[36mGET / HTTP/1.1[0m" 304 -
+2025-06-17 13:36:35,930 - root - INFO - GET /static/js/script.js - ×´Ì¬: 304 - ºÄÊ±: 0.66ms
+2025-06-17 13:36:35,930 - root - INFO - GET /static/css/style.css - ×´Ì¬: 200 - ºÄÊ±: 2.25ms
+2025-06-17 13:36:35,931 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 13:36:35] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-06-17 13:36:35,931 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 13:36:35] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-17 13:36:46,545 - root - INFO - GET / - ×´Ì¬: 304 - ºÄÊ±: 0.00ms
+2025-06-17 13:36:46,545 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 13:36:46] "[36mGET / HTTP/1.1[0m" 304 -
+2025-06-17 13:36:46,569 - root - INFO - GET /static/css/style.css - ×´Ì¬: 200 - ºÄÊ±: 0.63ms
+2025-06-17 13:36:46,570 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 13:36:46] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-17 13:36:46,570 - root - INFO - GET /static/js/script.js - ×´Ì¬: 304 - ºÄÊ±: 0.65ms
+2025-06-17 13:36:46,570 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 13:36:46] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-06-17 13:37:43,344 - root - INFO - POST /predict - ×´Ì¬: 200 - ºÄÊ±: 3826.22ms
+2025-06-17 13:37:43,344 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 13:37:43] "POST /predict HTTP/1.1" 200 -
+2025-06-17 13:37:54,385 - root - INFO - POST /predict - ×´Ì¬: 200 - ºÄÊ±: 131.84ms
+2025-06-17 13:37:54,385 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 13:37:54] "POST /predict HTTP/1.1" 200 -
+2025-06-17 13:38:21,127 - root - INFO - POST /predict - ×´Ì¬: 200 - ºÄÊ±: 124.35ms
+2025-06-17 13:38:21,127 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 13:38:21] "POST /predict HTTP/1.1" 200 -
+2025-06-17 13:38:37,112 - root - INFO - POST /predict - ×´Ì¬: 200 - ºÄÊ±: 101.30ms
+2025-06-17 13:38:37,112 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 13:38:37] "POST /predict HTTP/1.1" 200 -
+2025-06-17 13:42:49,821 - root - INFO - POST /predict - ×´Ì¬: 200 - ºÄÊ±: 133.09ms
+2025-06-17 13:42:49,821 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 13:42:49] "POST /predict HTTP/1.1" 200 -
+2025-06-17 13:42:57,405 - root - INFO - POST /predict - ×´Ì¬: 200 - ºÄÊ±: 107.12ms
+2025-06-17 13:42:57,405 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 13:42:57] "POST /predict HTTP/1.1" 200 -
+2025-06-17 14:01:13,303 - root - INFO - POST /predict - ×´Ì¬: 200 - ºÄÊ±: 9.75ms
+2025-06-17 14:01:13,303 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 14:01:13] "POST /predict HTTP/1.1" 200 -
+2025-06-17 14:01:18,258 - root - INFO - POST /predict - ×´Ì¬: 200 - ºÄÊ±: 62.53ms
+2025-06-17 14:01:18,258 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 14:01:18] "POST /predict HTTP/1.1" 200 -
+2025-06-17 14:01:19,904 - root - INFO - GET / - ×´Ì¬: 304 - ºÄÊ±: 0.64ms
+2025-06-17 14:01:19,904 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 14:01:19] "[36mGET / HTTP/1.1[0m" 304 -
+2025-06-17 14:01:19,927 - root - INFO - GET /static/css/style.css - ×´Ì¬: 304 - ºÄÊ±: 0.67ms
+2025-06-17 14:01:19,928 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 14:01:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-17 14:01:19,929 - root - INFO - GET /static/js/script.js - ×´Ì¬: 304 - ºÄÊ±: 0.35ms
+2025-06-17 14:01:19,930 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 14:01:19] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-06-17 14:03:15,428 - root - INFO - POST /predict - ×´Ì¬: 200 - ºÄÊ±: 83.92ms
+2025-06-17 14:03:15,428 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 14:03:15] "POST /predict HTTP/1.1" 200 -
+2025-06-17 14:03:21,600 - root - INFO - POST /predict - ×´Ì¬: 200 - ºÄÊ±: 62.57ms
+2025-06-17 14:03:21,600 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 14:03:21] "POST /predict HTTP/1.1" 200 -
+2025-06-17 14:03:29,024 - root - INFO - POST /predict - ×´Ì¬: 200 - ºÄÊ±: 69.48ms
+2025-06-17 14:03:29,026 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 14:03:29] "POST /predict HTTP/1.1" 200 -
+2025-06-17 14:03:36,801 - root - INFO - POST /predict - ×´Ì¬: 200 - ºÄÊ±: 55.32ms
+2025-06-17 14:03:36,801 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 14:03:36] "POST /predict HTTP/1.1" 200 -
+2025-06-17 14:03:42,940 - root - INFO - POST /predict - ×´Ì¬: 200 - ºÄÊ±: 0.00ms
+2025-06-17 14:03:42,940 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 14:03:42] "POST /predict HTTP/1.1" 200 -
+2025-06-17 14:03:48,607 - root - INFO - POST /predict - ×´Ì¬: 200 - ºÄÊ±: 62.89ms
+2025-06-17 14:03:48,607 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 14:03:48] "POST /predict HTTP/1.1" 200 -
+2025-06-17 14:04:02,637 - root - INFO - Î´¼ì²âµ½Ä¿±ê
+2025-06-17 14:04:02,637 - root - INFO - POST /predict - ×´Ì¬: 200 - ºÄÊ±: 58.47ms
+2025-06-17 14:04:02,637 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 14:04:02] "POST /predict HTTP/1.1" 200 -
+2025-06-17 14:05:50,811 - root - INFO - POST /predict - ×´Ì¬: 200 - ºÄÊ±: 158.93ms
+2025-06-17 14:05:50,811 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 14:05:50] "POST /predict HTTP/1.1" 200 -
+2025-06-17 14:06:02,733 - root - INFO - GET / - ×´Ì¬: 304 - ºÄÊ±: 2.55ms
+2025-06-17 14:06:02,734 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 14:06:02] "[36mGET / HTTP/1.1[0m" 304 -
+2025-06-17 14:06:02,761 - root - INFO - GET /static/css/style.css - ×´Ì¬: 304 - ºÄÊ±: 0.59ms
+2025-06-17 14:06:02,762 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 14:06:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-17 14:06:02,763 - root - INFO - GET /static/js/script.js - ×´Ì¬: 200 - ºÄÊ±: 0.88ms
+2025-06-17 14:06:02,764 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 14:06:02] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-06-17 14:06:07,863 - root - INFO - POST /predict - ×´Ì¬: 200 - ºÄÊ±: 3.33ms
+2025-06-17 14:06:07,866 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 14:06:07] "POST /predict HTTP/1.1" 200 -
+2025-06-17 14:06:14,640 - root - INFO - POST /predict - ×´Ì¬: 200 - ºÄÊ±: 112.50ms
+2025-06-17 14:06:14,644 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 14:06:14] "POST /predict HTTP/1.1" 200 -
+2025-06-17 14:07:53,317 - root - INFO - POST /predict - ×´Ì¬: 200 - ºÄÊ±: 149.40ms
+2025-06-17 14:07:53,317 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 14:07:53] "POST /predict HTTP/1.1" 200 -
+2025-06-17 14:08:00,212 - root - INFO - POST /predict - ×´Ì¬: 200 - ºÄÊ±: 119.86ms
+2025-06-17 14:08:00,212 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 14:08:00] "POST /predict HTTP/1.1" 200 -
+2025-06-17 14:08:06,931 - root - INFO - POST /predict - ×´Ì¬: 200 - ºÄÊ±: 113.79ms
+2025-06-17 14:08:06,961 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 14:08:06] "POST /predict HTTP/1.1" 200 -
+2025-06-17 14:08:07,088 - root - INFO - POST /predict - ×´Ì¬: 200 - ºÄÊ±: 8.68ms
+2025-06-17 14:08:07,088 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 14:08:07] "POST /predict HTTP/1.1" 200 -
+2025-06-17 14:08:12,935 - root - INFO - POST /predict - ×´Ì¬: 200 - ºÄÊ±: 115.21ms
+2025-06-17 14:08:12,940 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 14:08:12] "POST /predict HTTP/1.1" 200 -
+2025-06-17 14:08:45,624 - root - INFO - POST /predict - ×´Ì¬: 200 - ºÄÊ±: 114.69ms
+2025-06-17 14:08:45,631 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 14:08:45] "POST /predict HTTP/1.1" 200 -
+2025-06-17 14:08:56,391 - root - INFO - POST /predict - ×´Ì¬: 200 - ºÄÊ±: 119.18ms
+2025-06-17 14:08:56,391 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 14:08:56] "POST /predict HTTP/1.1" 200 -
+2025-06-17 14:13:11,794 - root - INFO - GET / - ×´Ì¬: 304 - ºÄÊ±: 0.00ms
+2025-06-17 14:13:11,795 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 14:13:11] "[36mGET / HTTP/1.1[0m" 304 -
+2025-06-17 14:13:11,817 - root - INFO - GET /static/css/style.css - ×´Ì¬: 304 - ºÄÊ±: 0.00ms
+2025-06-17 14:13:11,817 - root - INFO - GET /static/js/script.js - ×´Ì¬: 304 - ºÄÊ±: 0.00ms
+2025-06-17 14:13:11,817 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 14:13:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-17 14:13:11,822 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 14:13:11] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-06-17 14:17:02,661 - root - INFO - GET / - ×´Ì¬: 304 - ºÄÊ±: 0.00ms
+2025-06-17 14:17:02,661 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 14:17:02] "[36mGET / HTTP/1.1[0m" 304 -
+2025-06-17 14:17:02,691 - root - INFO - GET /static/css/style.css - ×´Ì¬: 304 - ºÄÊ±: 1.05ms
+2025-06-17 14:17:02,691 - root - INFO - GET /static/js/script.js - ×´Ì¬: 200 - ºÄÊ±: 0.98ms
+2025-06-17 14:17:02,692 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 14:17:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-17 14:17:02,692 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 14:17:02] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-06-17 14:17:08,235 - root - INFO - Í¼ÏñÒÑµ÷Õû´óÐ¡: (1280, 720)
+2025-06-17 14:17:08,311 - root - ERROR - API´¦Àí´íÎó: unknown file extension: 
+Traceback (most recent call last):
+  File "D:\python\venv\Lib\site-packages\PIL\Image.py", line 2538, in save
+    format = EXTENSION[ext]
+             ~~~~~~~~~^^^^^
+KeyError: ''
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\python\Yolo2\app2.py", line 266, in predict_api
+    image.save(img_byte_arr, format=image.format)
+  File "D:\python\venv\Lib\site-packages\PIL\Image.py", line 2541, in save
+    raise ValueError(msg) from e
+ValueError: unknown file extension: 
+2025-06-17 14:17:08,318 - root - INFO - POST /predict - ×´Ì¬: 500 - ºÄÊ±: 143.27ms
+2025-06-17 14:17:08,325 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 14:17:08] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-06-17 14:17:11,566 - root - INFO - GET /static/css/style.css - ×´Ì¬: 304 - ºÄÊ±: 1.02ms
+2025-06-17 14:17:11,566 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 14:17:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-17 14:17:11,577 - root - INFO - GET /.well-known/appspecific/com.chrome.devtools.json - ×´Ì¬: 404 - ºÄÊ±: 0.00ms
+2025-06-17 14:17:11,578 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 14:17:11] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-06-17 14:22:57,126 - root - INFO - GET / - ×´Ì¬: 304 - ºÄÊ±: 0.00ms
+2025-06-17 14:22:57,128 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 14:22:57] "[36mGET / HTTP/1.1[0m" 304 -
+2025-06-17 14:22:57,149 - root - INFO - GET /.well-known/appspecific/com.chrome.devtools.json - ×´Ì¬: 404 - ºÄÊ±: 1.01ms
+2025-06-17 14:22:57,149 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 14:22:57] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-06-17 14:22:57,157 - root - INFO - GET /static/js/script.js - ×´Ì¬: 304 - ºÄÊ±: 1.00ms
+2025-06-17 14:22:57,159 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 14:22:57] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-06-17 14:22:57,159 - root - INFO - GET /static/css/style.css - ×´Ì¬: 304 - ºÄÊ±: 1.00ms
+2025-06-17 14:22:57,160 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 14:22:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-17 14:23:09,478 - root - INFO - POST /predict - ×´Ì¬: 200 - ºÄÊ±: 74.87ms
+2025-06-17 14:23:09,478 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 14:23:09] "POST /predict HTTP/1.1" 200 -
+2025-06-17 14:23:16,138 - root - INFO - POST /predict - ×´Ì¬: 200 - ºÄÊ±: 67.08ms
+2025-06-17 14:23:16,139 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 14:23:16] "POST /predict HTTP/1.1" 200 -
+2025-06-17 14:23:24,735 - root - INFO - POST /predict - ×´Ì¬: 200 - ºÄÊ±: 76.25ms
+2025-06-17 14:23:24,735 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 14:23:24] "POST /predict HTTP/1.1" 200 -
+2025-06-17 15:13:48,989 - root - INFO - ¿ÚÕÖ¼ì²âÏµÍ³ºó¶Ë·þÎñÆô¶¯
+2025-06-17 15:13:48,991 - root - INFO - ÕýÔÚ¼ÓÔØÄ£ÐÍ: models/best.pt
+2025-06-17 15:13:49,596 - root - INFO - Ä£ÐÍ¼ÓÔØÍê³É£¬Éè±¸: cuda
+2025-06-17 15:13:49,599 - root - INFO - ·þÎñÆô¶¯ - Ä£Ê½: Éú²ú, µØÖ·: 0.0.0.0:5000
+2025-06-17 15:13:49,619 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.159.164.15:5000
+2025-06-17 15:13:49,619 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-17 15:13:54,241 - root - INFO - GET / - ×´Ì¬: 304 - ºÄÊ±: 61.59ms
+2025-06-17 15:13:54,241 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 15:13:54] "[36mGET / HTTP/1.1[0m" 304 -
+2025-06-17 15:13:54,268 - root - INFO - GET /static/css/style.css - ×´Ì¬: 304 - ºÄÊ±: 1.00ms
+2025-06-17 15:13:54,269 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 15:13:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-17 15:13:54,271 - root - INFO - GET /static/js/script.js - ×´Ì¬: 304 - ºÄÊ±: 1.00ms
+2025-06-17 15:13:54,271 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 15:13:54] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-06-17 15:14:03,409 - root - INFO - Í¼ÏñÒÑµ÷Õû´óÐ¡: (1280, 720)
+2025-06-17 15:14:07,289 - root - INFO - POST /predict - ×´Ì¬: 200 - ºÄÊ±: 3933.42ms
+2025-06-17 15:14:07,293 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 15:14:07] "POST /predict HTTP/1.1" 200 -
+2025-06-17 15:14:14,659 - root - INFO - POST /predict - ×´Ì¬: 200 - ºÄÊ±: 144.06ms
+2025-06-17 15:14:14,662 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 15:14:14] "POST /predict HTTP/1.1" 200 -
+2025-06-17 15:22:44,826 - root - INFO - GET / - ×´Ì¬: 304 - ºÄÊ±: 1.00ms
+2025-06-17 15:22:44,826 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 15:22:44] "[36mGET / HTTP/1.1[0m" 304 -
+2025-06-17 15:22:44,857 - root - INFO - GET /static/css/style.css - ×´Ì¬: 304 - ºÄÊ±: 0.00ms
+2025-06-17 15:22:44,857 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 15:22:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-17 15:22:44,859 - root - INFO - GET /static/js/script.js - ×´Ì¬: 304 - ºÄÊ±: 1.00ms
+2025-06-17 15:22:44,859 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 15:22:44] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-06-17 15:22:51,981 - root - INFO - POST /predict - ×´Ì¬: 200 - ºÄÊ±: 111.54ms
+2025-06-17 15:22:51,981 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 15:22:51] "POST /predict HTTP/1.1" 200 -
+2025-06-17 15:23:00,017 - root - INFO - POST /predict - ×´Ì¬: 200 - ºÄÊ±: 115.51ms
+2025-06-17 15:23:00,017 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 15:23:00] "POST /predict HTTP/1.1" 200 -
+2025-06-17 15:23:11,764 - root - INFO - POST /predict - ×´Ì¬: 200 - ºÄÊ±: 6.97ms
+2025-06-17 15:23:11,764 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 15:23:11] "POST /predict HTTP/1.1" 200 -
+2025-06-17 15:23:21,329 - root - INFO - POST /predict - ×´Ì¬: 200 - ºÄÊ±: 111.09ms
+2025-06-17 15:23:21,329 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 15:23:21] "POST /predict HTTP/1.1" 200 -
+2025-06-17 15:23:31,634 - root - INFO - POST /predict - ×´Ì¬: 200 - ºÄÊ±: 110.51ms
+2025-06-17 15:23:31,634 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 15:23:31] "POST /predict HTTP/1.1" 200 -
+2025-06-17 15:23:57,120 - root - INFO - POST /predict - ×´Ì¬: 200 - ºÄÊ±: 131.26ms
+2025-06-17 15:23:57,120 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 15:23:57] "POST /predict HTTP/1.1" 200 -
+2025-06-17 15:25:32,465 - root - INFO - GET / - ×´Ì¬: 304 - ºÄÊ±: 0.00ms
+2025-06-17 15:25:32,465 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 15:25:32] "[36mGET / HTTP/1.1[0m" 304 -
+2025-06-17 15:25:32,494 - root - INFO - GET /static/css/style.css - ×´Ì¬: 304 - ºÄÊ±: 0.82ms
+2025-06-17 15:25:32,495 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 15:25:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-17 15:25:32,496 - root - INFO - GET /static/js/script.js - ×´Ì¬: 304 - ºÄÊ±: 0.36ms
+2025-06-17 15:25:32,496 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 15:25:32] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-06-17 15:25:47,163 - root - INFO - GET / - ×´Ì¬: 304 - ºÄÊ±: 2.01ms
+2025-06-17 15:25:47,163 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 15:25:47] "[36mGET / HTTP/1.1[0m" 304 -
+2025-06-17 15:25:47,186 - root - INFO - GET /static/css/style.css - ×´Ì¬: 304 - ºÄÊ±: 0.00ms
+2025-06-17 15:25:47,187 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 15:25:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-17 15:25:47,188 - root - INFO - GET /static/js/script.js - ×´Ì¬: 304 - ºÄÊ±: 0.43ms
+2025-06-17 15:25:47,189 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 15:25:47] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-06-17 15:25:52,300 - root - INFO - POST /predict - ×´Ì¬: 200 - ºÄÊ±: 118.18ms
+2025-06-17 15:25:52,303 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 15:25:52] "POST /predict HTTP/1.1" 200 -
+2025-06-17 15:25:58,745 - root - INFO - POST /predict - ×´Ì¬: 200 - ºÄÊ±: 117.36ms
+2025-06-17 15:25:58,745 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 15:25:58] "POST /predict HTTP/1.1" 200 -
+2025-06-17 15:26:09,134 - root - INFO - POST /predict - ×´Ì¬: 200 - ºÄÊ±: 5.06ms
+2025-06-17 15:26:09,136 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 15:26:09] "POST /predict HTTP/1.1" 200 -
+2025-06-17 15:26:24,382 - root - INFO - POST /predict - ×´Ì¬: 200 - ºÄÊ±: 129.21ms
+2025-06-17 15:26:24,382 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 15:26:24] "POST /predict HTTP/1.1" 200 -
+2025-06-17 15:26:56,499 - root - INFO - POST /predict - ×´Ì¬: 200 - ºÄÊ±: 114.37ms
+2025-06-17 15:26:56,499 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 15:26:56] "POST /predict HTTP/1.1" 200 -
+2025-06-17 15:27:14,209 - root - INFO - POST /predict - ×´Ì¬: 200 - ºÄÊ±: 80.51ms
+2025-06-17 15:27:14,213 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 15:27:14] "POST /predict HTTP/1.1" 200 -
+2025-06-17 15:27:32,529 - root - INFO - POST /predict - ×´Ì¬: 200 - ºÄÊ±: 118.33ms
+2025-06-17 15:27:32,529 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 15:27:32] "POST /predict HTTP/1.1" 200 -
+2025-06-17 15:31:01,205 - root - INFO - POST /predict - ×´Ì¬: 200 - ºÄÊ±: 92.28ms
+2025-06-17 15:31:01,205 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 15:31:01] "POST /predict HTTP/1.1" 200 -
+2025-06-17 15:31:08,319 - root - INFO - POST /predict - ×´Ì¬: 200 - ºÄÊ±: 62.26ms
+2025-06-17 15:31:08,319 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 15:31:08] "POST /predict HTTP/1.1" 200 -
+2025-06-17 15:32:44,688 - root - INFO - POST /predict - ×´Ì¬: 200 - ºÄÊ±: 82.47ms
+2025-06-17 15:32:44,688 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 15:32:44] "POST /predict HTTP/1.1" 200 -
+2025-06-17 15:34:05,543 - root - INFO - POST /predict - ×´Ì¬: 200 - ºÄÊ±: 123.56ms
+2025-06-17 15:34:05,546 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 15:34:05] "POST /predict HTTP/1.1" 200 -
+2025-06-17 15:34:15,792 - root - INFO - POST /predict - ×´Ì¬: 200 - ºÄÊ±: 113.75ms
+2025-06-17 15:34:15,792 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 15:34:15] "POST /predict HTTP/1.1" 200 -
+2025-06-17 15:34:37,506 - root - INFO - POST /predict - ×´Ì¬: 200 - ºÄÊ±: 120.47ms
+2025-06-17 15:34:37,506 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 15:34:37] "POST /predict HTTP/1.1" 200 -
+2025-06-17 15:34:43,152 - root - INFO - POST /predict - ×´Ì¬: 200 - ºÄÊ±: 133.50ms
+2025-06-17 15:34:43,153 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 15:34:43] "POST /predict HTTP/1.1" 200 -
+2025-06-17 15:38:45,254 - root - INFO - POST /predict - ×´Ì¬: 200 - ºÄÊ±: 189.22ms
+2025-06-17 15:38:45,255 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 15:38:45] "POST /predict HTTP/1.1" 200 -
+2025-06-17 16:01:24,490 - root - INFO - POST /predict - ×´Ì¬: 200 - ºÄÊ±: 14.06ms
+2025-06-17 16:01:24,490 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 16:01:24] "POST /predict HTTP/1.1" 200 -
+2025-06-17 16:01:41,215 - root - INFO - POST /predict - ×´Ì¬: 200 - ºÄÊ±: 139.78ms
+2025-06-17 16:01:41,215 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 16:01:41] "POST /predict HTTP/1.1" 200 -
+2025-06-17 17:11:07,445 - root - INFO - POST /predict - ×´Ì¬: 200 - ºÄÊ±: 333.91ms
+2025-06-17 17:11:07,445 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 17:11:07] "POST /predict HTTP/1.1" 200 -
+2025-06-17 17:24:22,793 - root - INFO - GET / - ×´Ì¬: 304 - ºÄÊ±: 18.00ms
+2025-06-17 17:24:22,796 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 17:24:22] "[36mGET / HTTP/1.1[0m" 304 -
+2025-06-17 17:24:22,834 - root - INFO - GET /static/js/script.js - ×´Ì¬: 304 - ºÄÊ±: 2.00ms
+2025-06-17 17:24:22,834 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 17:24:22] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-06-17 17:24:22,836 - root - INFO - GET /static/css/style.css - ×´Ì¬: 304 - ºÄÊ±: 0.00ms
+2025-06-17 17:24:22,839 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 17:24:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-17 17:24:31,839 - root - INFO - POST /predict - ×´Ì¬: 200 - ºÄÊ±: 153.05ms
+2025-06-17 17:24:31,840 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 17:24:31] "POST /predict HTTP/1.1" 200 -
+2025-06-17 17:24:44,739 - root - INFO - POST /predict - ×´Ì¬: 200 - ºÄÊ±: 7.53ms
+2025-06-17 17:24:44,747 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 17:24:44] "POST /predict HTTP/1.1" 200 -
+2025-06-17 17:24:46,604 - root - INFO - POST /predict - ×´Ì¬: 200 - ºÄÊ±: 9.54ms
+2025-06-17 17:24:46,612 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 17:24:46] "POST /predict HTTP/1.1" 200 -
+2025-06-17 17:24:47,382 - root - INFO - POST /predict - ×´Ì¬: 200 - ºÄÊ±: 4.02ms
+2025-06-17 17:24:47,384 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2025 17:24:47] "POST /predict HTTP/1.1" 200 -
+2025-06-18 14:00:03,062 - root - INFO - ¿ÚÕÖ¼ì²âÏµÍ³ºó¶Ë·þÎñÆô¶¯
+2025-06-18 14:00:03,062 - root - INFO - ÕýÔÚ¼ÓÔØÄ£ÐÍ: models/yolov8n.pt
+2025-06-18 14:00:03,287 - root - INFO - Ä£ÐÍ¼ÓÔØÍê³É£¬Éè±¸: cuda
+2025-06-18 14:00:03,287 - root - INFO - ·þÎñÆô¶¯ - Ä£Ê½: Éú²ú, µØÖ·: 0.0.0.0:5000
+2025-06-18 14:00:03,298 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.159.251.49:5000
+2025-06-18 14:00:03,298 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-18 14:00:05,461 - root - INFO - GET / - ×´Ì¬: 200 - ºÄÊ±: 35.61ms
+2025-06-18 14:00:05,461 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2025 14:00:05] "GET / HTTP/1.1" 200 -
+2025-06-18 14:00:05,518 - root - INFO - GET /static/css/style.css - ×´Ì¬: 200 - ºÄÊ±: 0.00ms
+2025-06-18 14:00:05,541 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2025 14:00:05] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-18 14:00:05,552 - root - INFO - GET /static/js/script.js - ×´Ì¬: 200 - ºÄÊ±: 0.00ms
+2025-06-18 14:00:05,552 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2025 14:00:05] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-06-18 14:00:20,398 - root - INFO - ´ÓGIFÖÐÌáÈ¡ÁË1Ö¡
+2025-06-18 14:00:25,015 - root - INFO - POST /predict - ×´Ì¬: 200 - ºÄÊ±: 4651.13ms
+2025-06-18 14:00:25,022 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2025 14:00:25] "POST /predict HTTP/1.1" 200 -
+2025-06-18 14:02:22,057 - root - INFO - GET / - ×´Ì¬: 304 - ºÄÊ±: 0.00ms
+2025-06-18 14:02:22,057 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2025 14:02:22] "[36mGET / HTTP/1.1[0m" 304 -
+2025-06-18 14:02:22,085 - root - INFO - GET /static/css/style.css - ×´Ì¬: 304 - ºÄÊ±: 0.00ms
+2025-06-18 14:02:22,085 - root - INFO - GET /static/js/script.js - ×´Ì¬: 304 - ºÄÊ±: 0.00ms
+2025-06-18 14:02:22,088 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2025 14:02:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-18 14:02:22,088 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2025 14:02:22] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-06-18 14:26:37,643 - root - INFO - ¿ÚÕÖ¼ì²âÏµÍ³ºó¶Ë·þÎñÆô¶¯
+2025-06-18 14:26:37,643 - root - INFO - ÕýÔÚ¼ÓÔØÄ£ÐÍ: models/yolov8n.pt
+2025-06-18 14:26:38,106 - root - INFO - Ä£ÐÍ¼ÓÔØÍê³É£¬Éè±¸: cuda
+2025-06-18 14:26:38,106 - root - INFO - ·þÎñÆô¶¯ - Ä£Ê½: Éú²ú, µØÖ·: 0.0.0.0:5000
+2025-06-18 14:26:38,128 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.159.251.49:5000
+2025-06-18 14:26:38,128 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-18 14:26:40,232 - root - INFO - GET / - ×´Ì¬: 200 - ºÄÊ±: 47.22ms
+2025-06-18 14:26:40,233 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2025 14:26:40] "GET / HTTP/1.1" 200 -
+2025-06-18 14:26:40,257 - root - INFO - GET /static/css/style.css - ×´Ì¬: 304 - ºÄÊ±: 0.00ms
+2025-06-18 14:26:40,257 - root - INFO - GET /static/js/script.js - ×´Ì¬: 200 - ºÄÊ±: 0.00ms
+2025-06-18 14:26:40,259 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2025 14:26:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-18 14:26:40,259 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2025 14:26:40] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-06-18 14:27:03,717 - root - INFO - POST /predict - ×´Ì¬: 200 - ºÄÊ±: 3689.17ms
+2025-06-18 14:27:03,718 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2025 14:27:03] "POST /predict HTTP/1.1" 200 -
+2025-06-18 14:27:18,285 - root - INFO - POST /predict - ×´Ì¬: 200 - ºÄÊ±: 143.62ms
+2025-06-18 14:27:18,285 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2025 14:27:18] "POST /predict HTTP/1.1" 200 -
+2025-06-18 14:27:24,389 - root - INFO - POST /predict - ×´Ì¬: 200 - ºÄÊ±: 380.65ms
+2025-06-18 14:27:24,390 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2025 14:27:24] "POST /predict HTTP/1.1" 200 -
+2025-06-18 14:27:58,714 - root - INFO - GET / - ×´Ì¬: 304 - ºÄÊ±: 0.00ms
+2025-06-18 14:27:58,715 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2025 14:27:58] "[36mGET / HTTP/1.1[0m" 304 -
+2025-06-18 14:27:58,737 - root - INFO - GET /static/css/style.css - ×´Ì¬: 304 - ºÄÊ±: 1.22ms
+2025-06-18 14:27:58,738 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2025 14:27:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-18 14:27:58,738 - root - INFO - GET /static/js/script.js - ×´Ì¬: 304 - ºÄÊ±: 0.00ms
+2025-06-18 14:27:58,739 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2025 14:27:58] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-06-18 14:28:02,821 - root - INFO - POST /predict - ×´Ì¬: 200 - ºÄÊ±: 133.60ms
+2025-06-18 14:28:02,821 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2025 14:28:02] "POST /predict HTTP/1.1" 200 -
+2025-06-18 14:28:09,158 - root - INFO - POST /predict - ×´Ì¬: 200 - ºÄÊ±: 187.26ms
+2025-06-18 14:28:09,159 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2025 14:28:09] "POST /predict HTTP/1.1" 200 -
+2025-06-18 14:28:41,056 - root - INFO - GET / - ×´Ì¬: 200 - ºÄÊ±: 0.00ms
+2025-06-18 14:28:41,057 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2025 14:28:41] "GET / HTTP/1.1" 200 -
+2025-06-18 14:28:41,083 - root - INFO - GET /static/css/style.css - ×´Ì¬: 200 - ºÄÊ±: 0.00ms
+2025-06-18 14:28:41,083 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2025 14:28:41] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-18 14:28:41,083 - root - INFO - GET /static/js/script.js - ×´Ì¬: 200 - ºÄÊ±: 0.00ms
+2025-06-18 14:28:41,083 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2025 14:28:41] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-06-18 14:28:46,107 - root - INFO - POST /predict - ×´Ì¬: 200 - ºÄÊ±: 159.22ms
+2025-06-18 14:28:46,107 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2025 14:28:46] "POST /predict HTTP/1.1" 200 -
+2025-06-18 14:30:13,586 - root - INFO - GET / - ×´Ì¬: 304 - ºÄÊ±: 0.00ms
+2025-06-18 14:30:13,586 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2025 14:30:13] "[36mGET / HTTP/1.1[0m" 304 -
+2025-06-18 14:30:13,611 - root - INFO - GET /static/js/script.js - ×´Ì¬: 304 - ºÄÊ±: 0.00ms
+2025-06-18 14:30:13,611 - root - INFO - GET /static/css/style.css - ×´Ì¬: 304 - ºÄÊ±: 0.00ms
+2025-06-18 14:30:13,611 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2025 14:30:13] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-06-18 14:30:13,611 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2025 14:30:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-18 14:30:19,146 - root - INFO - POST /predict - ×´Ì¬: 200 - ºÄÊ±: 13.39ms
+2025-06-18 14:30:19,152 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2025 14:30:19] "POST /predict HTTP/1.1" 200 -
+2025-06-18 14:30:31,514 - root - INFO - POST /predict - ×´Ì¬: 200 - ºÄÊ±: 159.43ms
+2025-06-18 14:30:31,521 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2025 14:30:31] "POST /predict HTTP/1.1" 200 -
+2025-06-18 14:32:17,698 - root - INFO - POST /predict - ×´Ì¬: 200 - ºÄÊ±: 14.96ms
+2025-06-18 14:32:17,698 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2025 14:32:17] "POST /predict HTTP/1.1" 200 -
+2025-06-18 14:32:20,142 - root - INFO - GET / - ×´Ì¬: 304 - ºÄÊ±: 1.01ms
+2025-06-18 14:32:20,143 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2025 14:32:20] "[36mGET / HTTP/1.1[0m" 304 -
+2025-06-18 14:32:20,163 - root - INFO - GET /static/css/style.css - ×´Ì¬: 304 - ºÄÊ±: 0.00ms
+2025-06-18 14:32:20,163 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2025 14:32:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-18 14:32:20,163 - root - INFO - GET /static/js/script.js - ×´Ì¬: 304 - ºÄÊ±: 0.00ms
+2025-06-18 14:32:20,163 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2025 14:32:20] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-06-18 14:32:24,968 - root - INFO - POST /predict - ×´Ì¬: 200 - ºÄÊ±: 159.51ms
+2025-06-18 14:32:24,972 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2025 14:32:24] "POST /predict HTTP/1.1" 200 -
+2025-06-18 14:33:12,116 - root - INFO - GET / - ×´Ì¬: 304 - ºÄÊ±: 0.00ms
+2025-06-18 14:33:12,116 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2025 14:33:12] "[36mGET / HTTP/1.1[0m" 304 -
+2025-06-18 14:33:12,149 - root - INFO - GET /static/css/style.css - ×´Ì¬: 304 - ºÄÊ±: 0.69ms
+2025-06-18 14:33:12,150 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2025 14:33:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-18 14:33:12,150 - root - INFO - GET /static/js/script.js - ×´Ì¬: 200 - ºÄÊ±: 1.21ms
+2025-06-18 14:33:12,151 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2025 14:33:12] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-06-18 14:33:18,000 - root - INFO - POST /predict - ×´Ì¬: 200 - ºÄÊ±: 138.47ms
+2025-06-18 14:33:18,007 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2025 14:33:18] "POST /predict HTTP/1.1" 200 -
+2025-06-18 14:33:55,520 - root - INFO - POST /predict - ×´Ì¬: 200 - ºÄÊ±: 117.84ms
+2025-06-18 14:33:55,520 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2025 14:33:55] "POST /predict HTTP/1.1" 200 -
+2025-06-18 14:35:04,979 - root - INFO - ¿ÚÕÖ¼ì²âÏµÍ³ºó¶Ë·þÎñÆô¶¯
+2025-06-18 14:35:04,979 - root - INFO - ÕýÔÚ¼ÓÔØÄ£ÐÍ: models/best.pt
+2025-06-18 14:35:05,536 - root - INFO - Ä£ÐÍ¼ÓÔØÍê³É£¬Éè±¸: cuda
+2025-06-18 14:35:05,536 - root - INFO - ·þÎñÆô¶¯ - Ä£Ê½: Éú²ú, µØÖ·: 0.0.0.0:5000
+2025-06-18 14:35:05,555 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.159.251.49:5000
+2025-06-18 14:35:05,555 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-18 14:35:07,331 - root - INFO - GET / - ×´Ì¬: 304 - ºÄÊ±: 65.26ms
+2025-06-18 14:35:07,332 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2025 14:35:07] "[36mGET / HTTP/1.1[0m" 304 -
+2025-06-18 14:35:07,357 - root - INFO - GET /static/css/style.css - ×´Ì¬: 304 - ºÄÊ±: 0.31ms
+2025-06-18 14:35:07,358 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2025 14:35:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-18 14:35:07,360 - root - INFO - GET /static/js/script.js - ×´Ì¬: 304 - ºÄÊ±: 1.97ms
+2025-06-18 14:35:07,360 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2025 14:35:07] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-06-18 14:35:18,762 - root - INFO - POST /predict - ×´Ì¬: 200 - ºÄÊ±: 3932.82ms
+2025-06-18 14:35:18,762 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2025 14:35:18] "POST /predict HTTP/1.1" 200 -
+2025-06-18 14:35:26,579 - root - INFO - POST /predict - ×´Ì¬: 200 - ºÄÊ±: 138.66ms
+2025-06-18 14:35:26,579 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2025 14:35:26] "POST /predict HTTP/1.1" 200 -
+2025-06-18 14:35:37,807 - root - INFO - POST /predict - ×´Ì¬: 200 - ºÄÊ±: 117.49ms
+2025-06-18 14:35:37,807 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2025 14:35:37] "POST /predict HTTP/1.1" 200 -
+2025-06-18 14:35:51,314 - root - INFO - POST /predict - ×´Ì¬: 200 - ºÄÊ±: 125.49ms
+2025-06-18 14:35:51,314 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2025 14:35:51] "POST /predict HTTP/1.1" 200 -
+2025-06-18 14:35:52,954 - root - INFO - POST /predict - ×´Ì¬: 200 - ºÄÊ±: 0.00ms
+2025-06-18 14:35:52,954 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2025 14:35:52] "POST /predict HTTP/1.1" 200 -
+2025-06-18 14:35:54,599 - root - INFO - POST /predict - ×´Ì¬: 200 - ºÄÊ±: 7.01ms
+2025-06-18 14:35:54,599 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2025 14:35:54] "POST /predict HTTP/1.1" 200 -
+2025-06-18 14:35:56,807 - root - INFO - POST /predict - ×´Ì¬: 200 - ºÄÊ±: 6.46ms
+2025-06-18 14:35:56,814 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2025 14:35:56] "POST /predict HTTP/1.1" 200 -

@@ -1,0 +1,411 @@
+/* 基础样式与变量 */
+:root {
+    --primary-color: #4361ee;        /* 主色调：深蓝色，用于强调元素和交互 */
+    --primary-light: #e0e7ff;        /* 浅色主色调，用于背景和次要元素 */
+    --secondary-color: #3a86ff;      /* 辅助色：亮蓝色，用于渐变和强调 */
+    --success-color: #2ecc71;        /* 成功状态色：绿色，用于正确佩戴口罩标识 */
+    --danger-color: #e74c3c;         /* 危险状态色：红色，用于未佩戴口罩标识 */
+    --warning-color: #f39c12;        /* 警告状态色：橙色，用于提示信息 */
+    --text-color: #333;              /* 主要文本颜色：深灰色 */
+    --text-light: #666;              /* 次要文本颜色：中灰色 */
+    --text-muted: #999;              /* 弱化文本颜色：浅灰色 */
+    --bg-color: #ffffff;             /* 背景颜色：极浅灰色 */
+    --card-bg: #ffffff;              /* 卡片背景颜色：白色 */
+    --border-color: #e9ecef;         /* 边框颜色：浅灰色 */
+    --shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* 阴影效果 */
+    --transition: all 0.3s ease;     /* 过渡动画效果 */
+    --border-radius: 12px;           /* 圆角半径 */
+    --spacing-xs: 8px;               /* 极小间距 */
+    --spacing-sm: 16px;              /* 小间距 */
+    --spacing-md: 24px;              /* 中等间距 */
+    --spacing-lg: 32px;              /* 大间距 */
+    --font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; /* 主字体 */
+}
+
+/* 全局重置样式 */
+* {
+    margin: 0;                  /* 重置所有元素的外边距 */
+    padding: 0;                 /* 重置所有元素的内边距 */
+    box-sizing: border-box;     /* 使用border-box盒模型，使内边距和边框包含在元素的总宽度和高度内 */
+}
+
+/* 基础页面样式 */
+body {
+    font-family: var(--font-family);    /* 设置全局字体 */
+    background-color: var(--bg-color);  /* 设置背景颜色 */
+    color: var(--text-color);           /* 设置文本颜色 */
+    line-height: 1.6;                   /* 设置行高 */
+    -webkit-font-smoothing: antialiased; /* 优化字体渲染 */
+    -moz-osx-font-smoothing: grayscale; /* 优化字体渲染 */
+}
+
+.container {
+    max-width: 1000px;                  /* 最大宽度 */
+    margin: 0 auto;                     /* 水平居中 */
+    padding: 0 var(--spacing-md);       /* 左右内边距 */
+}
+
+/* 头部样式 */
+.header {
+    background: var(--primary-color); /* 将背景改为单一的深蓝色 */
+    color: white;                       /* 文本颜色 */
+    padding: var(--spacing-lg) 0;       /* 上下内边距 */
+    text-align: center;                 /* 文本居中 */
+    margin-bottom: var(--spacing-lg);   /* 底部外边距 */
+    border-radius: 0 0 var(--spacing-lg) var(--spacing-lg); /* 底部圆角 */
+    box-shadow: var(--shadow);          /* 阴影效果 */
+    position: relative;                 /* 定位上下文 */
+    overflow: hidden;                   /* 隐藏溢出内容 */
+}
+
+.header::after {
+    content: '';                        /* 伪元素内容 */
+    position: absolute;                 /* 绝对定位 */
+    bottom: -50px;                      /* 底部位置 */
+    left: 0;                            /* 左侧位置 */
+    width: 100%;                        /* 宽度 */
+    height: 100px;                      /* 高度 */
+    background: var(--bg-color);        /* 背景颜色 */
+    transform: skewY(-3deg);            /* 倾斜变换 */
+    z-index: 1;                         /* 层级 */
+}
+
+.title {
+    font-size: 2.5rem;                  /* 字体大小 */
+    margin-bottom: var(--spacing-sm);   /* 底部外边距 */
+    font-weight: 700;                   /* 字体粗细 */
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 文本阴影 */
+    position: relative;                 /* 定位上下文 */
+    z-index: 2;                         /* 层级 */
+}
+
+.subtitle {
+    font-size: 1.5rem;                  /* 字体大小 */
+    opacity: 0.9;                       /* 不透明度 */
+    max-width: 700px;                   /* 最大宽度 */
+    margin: 0 auto;                     /* 水平居中 */
+    position: relative;                 /* 定位上下文 */
+    z-index: 2;                         /* 层级 */
+    color: hsl(0, 0%, 0%);              /* 修改文字颜色 */
+    font-weight: bold;                  /* 添加或修改为 bold 以加粗文字 */
+}
+
+/* 主要内容样式 */
+.main {
+    margin-bottom: var(--spacing-lg);   /* 底部外边距 */
+    position: relative;                 /* 定位上下文 */
+    z-index: 2;                         /* 层级 */
+}
+
+.section-title {
+    font-size: 1.8rem;                  /* 字体大小 */
+    margin-bottom: var(--spacing-md);   /* 底部外边距 */
+    color: var(--primary-color);        /* 文本颜色 */
+    position: relative;                 /* 定位上下文 */
+    padding-bottom: var(--spacing-xs);  /* 底部内边距 */
+    display: inline-block;              /* 行内块级元素 */
+}
+
+.section-title::after {
+    content: '';                        /* 伪元素内容 */
+    position: absolute;                 /* 绝对定位 */
+    bottom: 0;                          /* 底部位置 */
+    left: 0;                            /* 左侧位置 */
+    width: 60px;                        /* 宽度 */
+    height: 3px;                        /* 高度 */
+    background-color: var(--primary-color); /* 背景颜色 */
+    border-radius: 3px;                 /* 圆角 */
+}
+
+.card {
+    background-color: var(--card-bg);   /* 背景颜色 */
+    border-radius: var(--border-radius); /* 圆角 */
+    box-shadow: var(--shadow);          /* 阴影效果 */
+    padding: var(--spacing-md);         /* 内边距 */
+    margin-bottom: var(--spacing-md);   /* 底部外边距 */
+    transition: var(--transition);      /* 过渡动画 */
+    border: 1px solid var(--border-color); /* 边框 */
+}
+
+.card:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); /* 悬停时阴影加深 */
+    transform: translateY(-5px);                  /* 悬停时向上移动 */
+}
+
+/* 上传区域样式 */
+.upload-container {
+    text-align: center;                 /* 文本居中 */
+    margin-bottom: var(--spacing-md);   /* 底部外边距 */
+}
+
+.drop-area {
+    border: 2px dashed var(--primary-light); /* 虚线边框 */
+    border-radius: var(--border-radius);     /* 圆角 */
+    padding: var(--spacing-lg) var(--spacing-md); /* 内边距 */
+    margin-bottom: var(--spacing-md);       /* 底部外边距 */
+    cursor: pointer;                        /* 光标样式 */
+    transition: var(--transition);          /* 过渡动画 */
+    position: relative;                     /* 定位上下文 */
+    display: flex;                          /* 弹性布局 */
+    flex-direction: column;                 /* 垂直排列 */
+    align-items: center;                    /* 水平居中 */
+    justify-content: center;                /* 垂直居中 */
+    min-height: 200px;                      /* 最小高度 */
+    background-color: white;                /* 背景颜色 */
+}
+
+.drop-area.highlight {
+    border-color: var(--primary-color);     /* 高亮时边框颜色 */
+    background-color: var(--primary-light); /* 高亮时背景颜色 */
+}
+
+.drop-area:focus {
+    outline: none;                          /* 移除默认焦点轮廓 */
+    box-shadow: 0 0 0 3px rgba(67, 97, 238, 0.3); /* 自定义焦点效果 */
+}
+
+.file-input {
+    position: absolute;                     /* 绝对定位 */
+    width: 100%;                            /* 宽度 */
+    height: 100%;                           /* 高度 */
+    top: 0;                                 /* 顶部位置 */
+    left: 0;                                /* 左侧位置 */
+    opacity: 0;                             /* 完全透明 */
+    cursor: pointer;                        /* 光标样式 */
+    z-index: 1;                             /* 层级 */
+}
+
+.upload-placeholder {
+    text-align: center;                     /* 文本居中 */
+    width: 100%;                            /* 宽度 */
+}
+
+.upload-placeholder i {
+    color: var(--primary-color);            /* 图标颜色 */
+    margin-bottom: var(--spacing-sm);       /* 底部外边距 */
+    display: block;                         /* 块级元素 */
+}
+
+.upload-placeholder p {
+    color: var(--text-light);               /* 文本颜色 */
+    margin-bottom: var(--spacing-xs);       /* 底部外边距 */
+}
+
+.file-types {
+    font-size: 0.9rem;                      /* 字体大小 */
+    opacity: 0.7;                           /* 不透明度 */
+}
+
+.preview-container {
+    margin-top: var(--spacing-md);          /* 顶部外边距 */
+    max-width: 100%;                        /* 最大宽度 */
+    display: flex;                          /* 弹性布局 */
+    flex-direction: column;                 /* 垂直排列 */
+    align-items: center;                    /* 水平居中 */
+}
+
+.preview-image {
+    max-width: 100%;                        /* 最大宽度 */
+    max-height: 300px;                      /* 最大高度 */
+    border-radius: var(--border-radius);    /* 圆角 */
+    box-shadow: var(--shadow);             /* 阴影效果 */
+    margin-bottom: var(--spacing-sm);      /* 底部外边距 */
+    transition: var(--transition);         /* 过渡动画 */
+}
+
+.preview-image:hover {
+    transform: scale(1.02);                 /* 悬停时放大 */
+}
+
+.preview-info {
+    text-align: center;                     /* 文本居中 */
+}
+
+/* 按钮样式 */
+.btn {
+    display: inline-block;                  /* 行内块级元素 */
+    padding: var(--spacing-sm) var(--spacing-md); /* 内边距 */
+    border: none;                           /* 无边框 */
+    border-radius: var(--border-radius);    /* 圆角 */
+    font-size: 1rem;                        /* 字体大小 */
+    font-weight: 600;                       /* 字体粗细 */
+    cursor: pointer;                        /* 光标样式 */
+    transition: var(--transition);          /* 过渡动画 */
+    text-decoration: none;                  /* 无文本装饰 */
+    color: white;                           /* 文本颜色 */
+    display: flex;                          /* 弹性布局 */
+    align-items: center;                    /* 水平居中 */
+    justify-content: center;                /* 垂直居中 */
+    gap: var(--spacing-xs);                 /* 元素间距 */
+    box-shadow: 0 4px 6px rgba(67, 97, 238, 0.2); /* 阴影效果 */
+}
+
+.primary-btn {
+    background-color: var(--primary-color); /* 背景颜色 */
+}
+
+.primary-btn:hover {
+    background-color: #3a5bdb;              /* 悬停时背景颜色 */
+    transform: translateY(-2px);            /* 悬停时向上移动 */
+    box-shadow: 0 6px 12px rgba(67, 97, 238, 0.3); /* 悬停时阴影加深 */
+}
+
+/* 结果区域样式 */
+.result-container {
+    min-height: 300px;                      /* 最小高度 */
+    display: flex;                          /* 弹性布局 */
+    flex-direction: column;                 /* 垂直排列 */
+    align-items: center;                    /* 水平居中 */
+    justify-content: center;                /* 垂直居中 */
+    position: relative;                     /* 定位上下文 */
+}
+
+.empty-state {
+    text-align: center;                     /* 文本居中 */
+    padding: var(--spacing-lg) 0;           /* 上下内边距 */
+}
+
+.empty-state i {
+    color: var(--text-muted);               /* 图标颜色 */
+    margin-bottom: var(--spacing-sm);       /* 底部外边距 */
+    display: block;                         /* 块级元素 */
+}
+
+.empty-state p {
+    color: var(--text-muted);               /* 文本颜色 */
+}
+
+.result-image {
+    max-width: 100%;                        /* 最大宽度 */
+    max-height: 500px;                      /* 最大高度 */
+    border-radius: var(--border-radius);    /* 圆角 */
+    box-shadow: var(--shadow);             /* 阴影效果 */
+    display: block;                         /* 块级元素 */
+    margin: 0 auto;                         /* 水平居中 */
+    transition: var(--transition);         /* 过渡动画 */
+}
+
+.result-image:hover {
+    transform: scale(1.02);                 /* 悬停时放大 */
+}
+
+.detection-stats {
+    margin-top: var(--spacing-md);          /* 顶部外边距 */
+    padding: var(--spacing-sm) var(--spacing-md); /* 内边距 */
+    background-color: var(--primary-light); /* 背景颜色 */
+    border-radius: var(--border-radius);    /* 圆角 */
+    display: flex;                          /* 弹性布局 */
+    justify-content: center;                /* 水平居中 */
+    gap: var(--spacing-lg);                 /* 元素间距 */
+    font-size: 1.1rem;                      /* 字体大小 */
+    width: 100%;                            /* 宽度 */
+    max-width: 600px;                       /* 最大宽度 */
+}
+
+.stat-item {
+    display: flex;                          /* 弹性布局 */
+    align-items: center;                    /* 水平居中 */
+    gap: var(--spacing-xs);                 /* 元素间距 */
+}
+
+.stat-item i {
+    font-size: 1.2rem;                      /* 图标大小 */
+}
+
+.stat-mask {
+    color: var(--success-color);            /* 佩戴口罩统计项颜色 */
+}
+
+.stat-nomask {
+    color: var(--danger-color);             /* 未佩戴口罩统计项颜色 */
+}
+
+/* 加载状态样式 */
+.loading-container {
+    display: flex;                          /* 弹性布局 */
+    flex-direction: column;                 /* 垂直排列 */
+    align-items: center;                    /* 水平居中 */
+    justify-content: center;                /* 垂直居中 */
+    height: 200px;                          /* 高度 */
+    width: 100%;                            /* 宽度 */
+}
+
+.loading {
+    display: inline-block;                      /* 行内块级元素 */
+    width: 48px;                                /* 宽度 */
+    height: 48px;                               /* 高度 */
+    border: 4px solid rgba(67, 97, 238, 0.3);   /* 边框 */
+    border-radius: 50%;                         /* 圆形 */
+    border-top-color: var(--primary-color);     /* 顶部边框颜色 */
+    animation: spin 1s ease-in-out infinite;    /* 应用旋转动画 */
+    margin-right: var(--spacing-xs);            /* 右侧外边距 */
+}
+
+.loading-text {
+    color: var(--primary-color);            /* 文本颜色 */
+    font-weight: 500;                       /* 字体粗细 */
+    margin-top: var(--spacing-sm);          /* 顶部外边距 */
+}
+
+/* 定义旋转动画 */
+@keyframes spin {
+    to { transform: rotate(360deg); }        /* 旋转360度 */
+}
+
+/* 错误提示样式 */
+.error-message {
+    text-align: center;                     /* 文本居中 */
+    padding: var(--spacing-md);             /* 内边距 */
+    background-color: rgba(231, 76, 60, 0.1); /* 背景颜色 */
+    border-radius: var(--border-radius);    /* 圆角 */
+    border-left: 4px solid var(--danger-color); /* 左侧边框 */
+    margin-top: var(--spacing-md);          /* 顶部外边距 */
+}
+
+.error-message i {
+    color: var(--danger-color);             /* 图标颜色 */
+    margin-bottom: var(--spacing-xs);       /* 底部外边距 */
+    display: block;                         /* 块级元素 */
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .title {
+        font-size: 2rem;                    /* 小屏幕字体大小 */
+    }
+
+    .subtitle {
+        font-size: 1rem;                    /* 小屏幕字体大小 */
+    }
+
+    .card {
+        padding: var(--spacing-md) var(--spacing-sm); /* 小屏幕内边距 */
+    }
+
+    .section-title {
+        font-size: 1.5rem;                  /* 小屏幕字体大小 */
+    }
+
+    .detection-stats {
+        flex-direction: column;             /* 小屏幕垂直排列 */
+        gap: var(--spacing-xs);             /* 小屏幕元素间距 */
+    }
+}
+
+@media (max-width: 480px) {
+    .header {
+        padding: var(--spacing-md) 0;       /* 超小屏幕内边距 */
+    }
+
+    .title {
+        font-size: 1.8rem;                  /* 超小屏幕字体大小 */
+    }
+
+    .drop-area {
+        padding: var(--spacing-md) var(--spacing-xs); /* 超小屏幕内边距 */
+    }
+
+    .preview-image {
+        max-height: 200px;                  /* 超小屏幕最大高度 */
+    }
+}

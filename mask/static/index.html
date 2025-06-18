@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>口罩检测 - 智能安全监控系统</title>
+    <!-- 修正静态资源路径，添加 /static 前缀 -->
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><path d='M50 20C32 20 20 32 20 50s12 30 30 30 30-12 30-30S68 20 50 20zm0 40c-11 0-20-9-20-20s9-20 20-20 20 9 20 20-9 20-20 20z' fill='%234361ee'/></svg>">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="title">口罩检测系统</h1>
+            <p class="subtitle">基于深度学习的智能面部口罩检测</p>
+        </div>
+    </header>
+
+    <main class="main container">
+        <section class="upload-section">
+            <div class="card">
+                <h2 class="section-title">上传检测图片</h2>
+                <div class="upload-container">
+                    <div class="drop-area" id="drop-area" tabindex="0">
+                        <input type="file" id="image-upload" accept="image/jpeg,image/png,image/gif" class="file-input">
+                        <div class="upload-placeholder">
+                            <i class="fas fa-cloud-upload-alt fa-5x"></i>
+                            <p>拖放图片到这里或点击浏览</p>
+                            <p class="file-types">支持 JPG、PNG、GIF 格式，最大10MB</p>
+                        </div>
+                    </div>
+                    <button id="predict-btn" class="btn primary-btn" aria-label="开始口罩检测">
+                        <i class="fas fa-eye"></i> 开始检测
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="result-section">
+            <div class="card">
+                <h2 class="section-title">检测结果</h2>
+                <div id="result" class="result-container">
+                    <div class="empty-state">
+                        <i class="fas fa-image fa-6x"></i>
+                        <p>上传图片以查看口罩检测结果</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 智能口罩检测系统. 为公共安全提供技术支持.</p>
+        </div>
+    </footer>
+
+    <!-- 修正静态资源路径，添加 /static 前缀 -->
+    <script src="/static/js/script.js"></script>
+</body>
+</html>
